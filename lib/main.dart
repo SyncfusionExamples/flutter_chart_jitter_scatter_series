@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   primaryYAxis: NumericAxis(interval: 10),
                   primaryXAxis:
                       NumericAxis(interval: 2, minimum: 0, maximum: 11),
-                  series: <ChartSeries<SampleData, num>>[
+                  series: <ScatterSeries<SampleData, num>>[
                     ScatterSeries(
                         markerSettings:
                             const MarkerSettings(width: 5, height: 5),
